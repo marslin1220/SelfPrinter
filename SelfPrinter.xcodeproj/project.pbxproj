@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2DFC46620E129550026FD8D /* SelfPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFC46520E129550026FD8D /* SelfPrinter.swift */; };
-		A2DFC46D20E1D12F0026FD8D /* VerticallyPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFC46C20E1D12F0026FD8D /* VerticallyPrint.swift */; };
+		A20ED51B20E2156300F9FDD8 /* SimplePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20ED51920E2156300F9FDD8 /* SimplePrinter.swift */; };
+		A20ED51C20E2156300F9FDD8 /* VerticalPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20ED51A20E2156300F9FDD8 /* VerticalPrinter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A20ED51920E2156300F9FDD8 /* SimplePrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePrinter.swift; sourceTree = "<group>"; };
+		A20ED51A20E2156300F9FDD8 /* VerticalPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalPrinter.swift; sourceTree = "<group>"; };
 		A2DFC46220E129550026FD8D /* SelfPrinter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SelfPrinter; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2DFC46520E129550026FD8D /* SelfPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfPrinter.swift; sourceTree = "<group>"; };
-		A2DFC46C20E1D12F0026FD8D /* VerticallyPrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticallyPrint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +59,8 @@
 		A2DFC46420E129550026FD8D /* SelfPrinter */ = {
 			isa = PBXGroup;
 			children = (
-				A2DFC46520E129550026FD8D /* SelfPrinter.swift */,
-				A2DFC46C20E1D12F0026FD8D /* VerticallyPrint.swift */,
+				A20ED51920E2156300F9FDD8 /* SimplePrinter.swift */,
+				A20ED51A20E2156300F9FDD8 /* VerticalPrinter.swift */,
 			);
 			path = SelfPrinter;
 			sourceTree = "<group>";
@@ -122,8 +122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2DFC46D20E1D12F0026FD8D /* VerticallyPrint.swift in Sources */,
-				A2DFC46620E129550026FD8D /* SelfPrinter.swift in Sources */,
+				A20ED51C20E2156300F9FDD8 /* VerticalPrinter.swift in Sources */,
+				A20ED51B20E2156300F9FDD8 /* SimplePrinter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
